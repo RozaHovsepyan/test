@@ -1,0 +1,157 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+h1 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 70px;
+    color: rgb(94, 40, 109);
+}
+
+
+header {
+    background-image: url(https://images.pexels.com/photos/2847648/pexels-photo-2847648.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) ; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 750px;
+}
+
+.BigDiv{
+    display: flex;
+    align-items: center;
+
+
+    
+}
+
+.BigDiv ul{
+    display: flex;
+    list-style-type: none; 
+    justify-content: space-around;
+    width: 80%;
+    position: fixed;
+    z-index: 1;
+}
+
+.BigDiv ul li{
+    margin: 50px;
+    font-size: 20px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+.logo{
+    height: 150px;
+    width: 200px;
+}
+
+
+#BigDiv2{
+    display: flex;
+    display: inline-block;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+
+
+
+.div3 p{
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(94, 40, 109);
+}
+
+
+
+.img2{
+    width: 300px;
+    height: 200px;
+    float: right;
+    margin: 70px;
+}
+
+
+
+#section1{
+    background-image: url(prg.png) ; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 750px;
+}
+
+
+.h11{
+    justify-content: space-around;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 70px;
+    color: white;
+}
+
+
+.div4 p{
+
+    justify-content: space-around;
+    text-align: center;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    margin: 100px;
+}
+
+
+.div4{
+    padding: 100px;
+}
+
+
+
+
+#section2{
+    background-image: url(file.png) ; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 750px;}
+
+
+
+
+#div{
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    border-radius: 50px;
+}
+
+
+
+
+#h2{
+    justify-content: space-around;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    color: black;
+}
+
+
+
+
+#btn{
+    width: 150px;
+    height: 50px;
+    position: relative;
+    z-index: 1;
+    margin-left: 600px; 
+    margin-top: 300px;
+    opacity: 0.8;
+}
